@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    color: #C1C1C1;
+    width: 120px;
+}
+
+/* HEADER */
+.header-logo {
+    width: 125px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    box-shadow: 0px 1px 20px 1px #BABABA;
+    z-index: 1;
+    padding: 10px 16px;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: none;
+  }
+  
+  .navbar a.right {
+    float: right;
+  }
+
+  /* HEADER ICONS */
+  .fa-icon {
+    margin-top: 3px;
+  }
+
+  .fa-icon-2 {
+    margin-top: 3px;
+    margin-right: 25px;
+  }
+  
+/* SIDEBAR */
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 80px;
+    border-right: 1px solid #BABABA;
+    text-align: center;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #7a7a7a;
+  }
+
+.dashboard-icon .patienten-logo .kalender-logo {
+    transform: scale(0.5) !important;
+    align-content: center;
+}
