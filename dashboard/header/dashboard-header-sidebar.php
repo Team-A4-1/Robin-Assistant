@@ -29,12 +29,10 @@
         <a href="#patienten">Patienten</a>
         <hr>
             <img class="kalender-logo" src="../assets/date_range-black-18dp.svg" alt="kalender-logo" width="60px" height="60px">
-        <a href="#kalender">Kalender</a>
+        <a href="kalender.php">Kalender</a>
         <hr>
       </div>
-      
 
-  </body>
+    <div class="content">
 
-  <script src="https://kit.fontawesome.com/8ee2ef1015.js"></script>
-</html>
+

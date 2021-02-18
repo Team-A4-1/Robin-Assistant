@@ -79,3 +79,6 @@ hr {
     transform: scale(0.5) !important;
     align-content: center;
 }
+.content{
+    margin-left: 160px;
+}
