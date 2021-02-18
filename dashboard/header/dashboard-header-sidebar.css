@@ -81,4 +81,6 @@ hr {
 }
 .content{
     margin-left: 160px;
+
+    z-index: -1;
 }

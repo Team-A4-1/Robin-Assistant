@@ -9,7 +9,8 @@ include "header/dashboard-header-sidebar.php";
 ?>
 	<link rel="stylesheet" href="kalender.css" />
 <div class="crumb">
-<h1>Dashboard</h1>
+<h1 class="title'">Dashboard</h1>
+	<div class="crumbs crumbhome"></div>
 </div>
 
 <?php
