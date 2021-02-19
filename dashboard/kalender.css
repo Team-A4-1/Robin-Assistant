@@ -1,5 +1,40 @@
 .crumb{
+    text-align: left;
+}
+.crumbs{
+    display: inline-block;
 }
 .title{
-    font-size: 100%;
+    font-size: 120%;
+
+}
+.head{
+    margin-left: 1%;
+}
+.dateText{
+    text-align: center;
+}
+.calender{
+    display: grid ;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: max-content;
+
+}
+.date{
+    border:solid black 1px ;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.task{
+    margin-left: 2%;
+}
+
+.subtask{
+    margin:1%;
+}
+.subtask > div {
+    display: inline-block;
 }
