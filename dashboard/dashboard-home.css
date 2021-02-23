@@ -1,3 +1,45 @@
-.title-home {
-    padding: 10px;
+.crumb {
+  text-align: left;
+}
+.crumbs {
+  display: inline-block;
+}
+.title {
+  font-size: 120%;
+}
+.head {
+  margin-left: 1%;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px 10px;
+  grid-template-areas:
+    "home-box-1 home-box-1 home-box-3"
+    "home-box-2 home-box-2 home-box-3";
+    padding: 10px 75px;
+}
+.home-box-1 {
+  grid-area: home-box-1;
+  height: 400px;
+  width: auto;
+  border: 1px solid black;
+}
+.home-box-2 {
+  grid-area: home-box-2;
+  height: 400px;
+  width: auto;
+  border: 1px solid black;
+}
+.home-box-3 {
+  grid-area: home-box-3;
+  height: 815px;
+  width: auto;
+  border: 1px solid black;
 }

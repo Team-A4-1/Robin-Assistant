@@ -5,12 +5,12 @@
  * Date: 18/02/2021
  * Time: 14:19
  */
-include "header/dashboard-header-sidebar.php";
+include "../header/dashboard-header-sidebar.php";
 ?>
     <link rel="stylesheet" href="kalender.css" />
     <div class="head">
         <h1 class="title">Kalender</h1>
-        <div class="crumb">   <div class="crumbs crumbhome"><img src="" alt="home img"> ></div>
+        <div class="crumb">   <div class="crumbs crumbhome"><i class="fas fa-home"></i> ></div>
             <div class="crumbs crumbsfirst">Kalender</div>
         </div>
     </div>
@@ -50,4 +50,4 @@ include "header/dashboard-header-sidebar.php";
 		?>
     </div>
 <?php
-include "header/dashboard-footer.php";
+include "../header/dashboard-footer.php";
