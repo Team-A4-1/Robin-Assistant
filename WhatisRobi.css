@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.WhatisRobin{
+    background-color: #F5F5F5;
+}
+.WhatisRobin__wrapper{
+    padding: 40px 0;
+   text-align: center;
+
+   
+}
+h1{
+    margin-bottom: 30px;
+    color: #E96F1E;
+    font-size: 40px;
+}
+p{
+    color: #626262; 
+    font-size: 20px;
+}
