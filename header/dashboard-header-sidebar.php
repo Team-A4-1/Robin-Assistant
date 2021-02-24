@@ -25,6 +25,7 @@
     <div class="sidenav">
             <img class="dashboard-icon" src="../assets/dashboard-black-18dp.svg" alt="dashboard-icon" width="60px" height="60px">
         <a href="../dashboard/dashboard-home.php">Dashboard</a>
+
         <hr>
             <img class="patienten-logo" src="../assets/account_box-black-18dp.svg" alt="patienten-logo" width="60px" height="60px">
         <a href="#patienten">Patienten</a>
