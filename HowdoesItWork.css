@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.HowdoesItWork {
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)),
+    url('images/StockSnap_6XELVX8KAN.jpg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  .HowdoesItWork{
+      padding: 40px 0;
+  }
+
+  .HowdoesItWork__wrapper{
+      display: flex;
+      text-align: center;
+      flex-wrap: wrap;
+  }
+  .HowdoesItWork__left{
+      padding: 10px 70px;
+      flex: 1 1 50%;
+  }
+  .HowdoesItWork__right{
+    padding: 10px 70px;
+    flex: 1 1 50%;
+}
+.HowdoesItWork .HowdoesItWork__title{
+    color: #E96F1E;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.HowdoesItWork__left .HowdoesItWork__title{
+    color: #E96F1E;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.HowdoesItWork__right .HowdoesItWork__title{
+    color: #E96F1E;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.HowdoesItWork__left .HowdoesItWork__text{
+    color: #fff;
+    text-align: left;
+    font-size: 19px;
+}
+.HowdoesItWork__right .HowdoesItWork__text{
+    color: #fff;
+    text-align: left;
+    font-size: 19px;
+}
