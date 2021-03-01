@@ -43,3 +43,18 @@
   width: auto;
   border: 1px solid black;
 }
+
+
+
+
+/*breadcrumbs*/
+.crumb{
+  text-align: left;
+}
+.crumbs{
+  display: inline-block;
+}
+.title{
+  font-size: 120%;
+
+}

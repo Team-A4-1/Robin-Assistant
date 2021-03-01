@@ -1,0 +1,30 @@
+.main{
+    margin:1%;
+    border: solid black 1px;
+    display: grid;
+    grid-template-columns:25% auto;
+
+}
+.user{
+
+    text-align: center;
+}
+.user>div{
+    text-align: left;
+    margin-left: 6%;
+}
+
+.tasks{
+    overflow-y: scroll;
+}
+
+.user,.tasks{
+    border: black solid 1px;
+    height: 70vh;
+    margin: 4vh;
+
+}
+
+hr{
+    color: #C1C1C160;
+}

@@ -83,3 +83,18 @@ hr {
 
     z-index: -1;
 }
+
+/*bread crumbs*/
+.crumb{
+    text-align: left;
+}
+.crumbs{
+    display: inline-block;
+}
+.title{
+    font-size: 120%;
+
+}
+.head{
+    margin-left: 1%;
+}

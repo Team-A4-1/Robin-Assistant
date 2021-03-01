@@ -16,37 +16,10 @@ include "../header/dashboard-header-sidebar.php";
     </div>
     <div class="calender">
 		<?php
+		require_once(__DIR__.'/taskHandling.php');
+        $tasks = new taskHandling();
+        $tasks->printTasks(true,true,true);
 
-		$task =  '{
-	"task": {
-	"name": "task1",
-	"duration":120,
-	"subtasks": [
-	        {"time": "9:00","name": "subtask1","duration":60},
-	        {"time": "10:00","name": "subtask2","duration":60}
-	    ]
-	  }
-	}'
-		;
-		$tasks = json_decode($task);
-		for($i=0;$i<31;$i++){
-			$Maintask=$tasks->task->name;
-			$sub=$tasks->task->subtasks;
-
-			echo "<div class='date $i'><div class='dateText'>$i</div> ";
-
-
-			echo "<div class='task'>$Maintask</div>";
-			for($j=0;$j<sizeof($sub);$j++){
-
-
-				echo "<div class='subtask'>
-          <div class='subtask time'>".$sub[$j]->time."</div> ".
-				     "<div class='subtask name'>".$sub[$j]->name."</div>"
-				     ."</div>";
-			}
-			echo"</div>";
-		}
 		?>
     </div>
 <?php
