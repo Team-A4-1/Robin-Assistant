@@ -12,9 +12,9 @@ include "../header/dashboard-header-sidebar.php";
 
 <div class="wrapper">
 	<div class="grid-container">
-		<div class="home-box-1">1</div>
-		<div class="home-box-2">2</div>
-		<div class="home-box-3">3</div>
+    <div class="home-box-1">Opkomende Taken</div>
+		<div class="home-box-2">Kalender</div>
+		<div class="home-box-3">Patienten</div>
 	</div>
 </div>
 

@@ -30,18 +30,21 @@
   height: 400px;
   width: auto;
   border: 1px solid black;
+  border-radius: 5px;
 }
 .home-box-2 {
   grid-area: home-box-2;
   height: 400px;
   width: auto;
   border: 1px solid black;
+  border-radius: 5px;
 }
 .home-box-3 {
   grid-area: home-box-3;
   height: 815px;
   width: auto;
   border: 1px solid black;
+  border-radius: 5px;
 }
 
 

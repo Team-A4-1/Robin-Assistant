@@ -28,7 +28,7 @@
 
         <hr>
             <img class="patienten-logo" src="../assets/account_box-black-18dp.svg" alt="patienten-logo" width="60px" height="60px">
-        <a href="#patienten">Patienten</a>
+        <a href="../dashboard/patienten.php">Patienten</a>
         <hr>
             <img class="kalender-logo" src="../assets/date_range-black-18dp.svg" alt="kalender-logo" width="60px" height="60px">
         <a href="../dashboard/kalender.php">Kalender</a>
