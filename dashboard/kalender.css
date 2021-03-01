@@ -4,14 +4,15 @@
 }
 .calender{
     display: grid ;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: auto auto auto auto;
     grid-template-rows: max-content;
+    margin:1%;
+    border: solid black 1px;
 
 }
 .date{
     border:solid black 1px ;
-    width: 100%;
-    height: 100%;
+    width: auto;
     text-align: center;
 
 }
@@ -26,3 +27,4 @@
 .subtask > div {
     display: inline-block;
 }
+
