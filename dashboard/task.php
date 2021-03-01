@@ -17,7 +17,7 @@ include "../header/dashboard-header-sidebar.php";
 	</div>
 <div class="main">
 	<div class="user">
-		<img src="" alt="profile pic" class="profile">
+		<img src="../assets/account_box-black-18dp.svg" alt="profile pic" class="profile">
 		<hr>
 		<div class="name">Naam</div>
 		<div class="age">Leeftijd</div>

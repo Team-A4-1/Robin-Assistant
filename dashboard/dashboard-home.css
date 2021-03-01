@@ -48,8 +48,6 @@
 }
 
 
-
-
 /*breadcrumbs*/
 .crumb{
   text-align: left;
@@ -60,4 +58,38 @@
 .title{
   font-size: 120%;
 
+}
+
+
+.patient-card {
+  height: 125px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.patient-cards {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 1fr 1fr;
+  border: none;
+  gap: 15px;
+  margin: 15px;
+  align-items: center;
+  justify-items: center;
+}
+
+.user-home-arrow {
+  float: right;
+  padding: 10px;
+}
+
+.user-home-gegevens {
+  float: left;
+  padding: 0px 10px 0px 10px;
+}
+
+.user-home-icon {
+  float: left;
 }
