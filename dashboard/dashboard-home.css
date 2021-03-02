@@ -75,7 +75,7 @@
   grid-template-rows: 1fr 1fr;
   border: none;
   gap: 15px;
-  margin: 15px;
+  margin: 35px;
   align-items: center;
   justify-items: center;
 }
@@ -85,6 +85,17 @@
   padding: 10px;
 }
 
+.patient-card-right {
+  text-decoration: none;
+  color: black;
+  transition-duration: 0.3s;
+}
+
+.patient-card-right:hover {
+  color: #E96F1E;
+  transition-duration: 0.3s;
+}
+
 .user-home-gegevens {
   float: left;
   padding: 0px 10px 0px 10px;
@@ -92,4 +103,10 @@
 
 .user-home-icon {
   float: left;
+}
+
+.user-home-image {
+  width: 75px;
+  padding: 10px;
+  border-radius: 20%;
 }

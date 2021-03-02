@@ -11,6 +11,21 @@
   margin-left: 1%;
 }
 
+.wrapper {
+  width: 100%;
+}
+
+/*breadcrumbs*/
+.crumb {
+  text-align: left;
+}
+.crumbs {
+  display: inline-block;
+}
+.title {
+  font-size: 120%;
+}
+
 .patient-card-hr {
   width: 200px;
 }
@@ -33,7 +48,7 @@
 }
 
 .patient-card-right:hover {
-  color: #E96F1E;
+  color: #e96f1e;
   transition-duration: 0.3s;
 }
 
@@ -43,25 +58,42 @@
 }
 
 .patient-card {
-  height: 300px;
+  height: 400px;
   width: 250px;
   border: 1px solid black;
   border-radius: 5px;
   text-align: center;
+  grid-column: span 1;
+}
+
+.patient-card-taken {
+  height: 400px;
+  width: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  grid-column: span 2;
+}
+
+.patient-card-kalender {
+  height: 400px;
+  width: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  grid-column: span 3;
 }
 
 .patient-cards {
   margin: 0 auto;
   display: grid;
   gap: 25px 25px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-template-rows: 1fr 1fr;
   border: 1px solid black;
-  padding: 50px 50px 50px 50px;
+  padding: 25px;
   margin: 15px 15px;
   border-radius: 5px;
-  align-items: center;
-  justify-items: center;
 }
 
 @media screen and (max-width: 1350px) {

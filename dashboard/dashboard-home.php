@@ -20,15 +20,15 @@ include "../header/dashboard-header-sidebar.php";
 
                     <div class="patient-card">
                         <div class="user-home-icon">
-                            <img class="" src="../assets/account_box-black-18dp.svg" alt="user-icon">
+                            <img class="user-home-image" src="../assets/mike-andrei-433.jpeg" alt="user-icon">
                         </div>
                         <div class="user-home-gegevens">
-                            <p class="">Naam</p>
-                            <p class="">Leeftijd</p>
-                            <p class="">Geslacht</p>
+                            <p class="">Test gebruiker 1</p>
+                            <p class="">19</p>
+                            <p class="">Man</p>
                         </div>
                         <div class="user-home-arrow">
-                            <i class="fas fa-2x fa-arrow-alt-circle-right "></i>
+                            <a href="patient.php" class="fas fa-2x fa-arrow-alt-circle-right patient-card-right"></a>
                         </div>
                     </div>
                 

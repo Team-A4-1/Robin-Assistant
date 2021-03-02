@@ -28,3 +28,9 @@
 hr{
     color: #C1C1C160;
 }
+
+.user-image {
+    width: 80px;
+    padding: 10px;
+    border-radius: 20%;
+  }

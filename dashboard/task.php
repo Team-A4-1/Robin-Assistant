@@ -17,11 +17,11 @@ include "../header/dashboard-header-sidebar.php";
 	</div>
 <div class="main">
 	<div class="user">
-		<img src="../assets/account_box-black-18dp.svg" alt="profile pic" class="profile">
+		<img src="../assets/mike-andrei-433.jpeg" alt="profile pic" class="profile user-image">
 		<hr>
-		<div class="name">Naam</div>
-		<div class="age">Leeftijd</div>
-		<div class="gender">Geslacht</div>
+		<div class="name">Test gebruiker 1</div>
+		<div class="age">19</div>
+		<div class="gender">Man</div>
 
 	</div>
 

@@ -68,6 +68,7 @@ hr {
     font-size: 18px;
     color: #000000;
     display: block;
+    text-align: center;
   }
   
   .sidenav a:hover {
@@ -86,7 +87,7 @@ hr {
 
 @media screen and (max-width: 900px) {
   .content{
-    margin-left: 80px;
+    margin-left: 90px;
     z-index: -1;
 }
 }
@@ -158,4 +159,14 @@ hr {
 }
 .head{
     margin-left: 1%;
+}
+
+.sidebar-link {
+  color: black;
+  transition-duration: 0.3s;
+}
+
+.sidebar-link {
+  color: #E96F1E;
+  transition-duration: 0.3s;
 }
