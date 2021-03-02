@@ -69,10 +69,13 @@ hr {
     color: #000000;
     display: block;
     text-align: center;
+    transition-duration: 0.3s;
   }
   
   .sidenav a:hover {
-    color: #7a7a7a;
+    color: #E96F1E;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
   }
 
 .dashboard-icon .patienten-logo .kalender-logo {
@@ -159,14 +162,4 @@ hr {
 }
 .head{
     margin-left: 1%;
-}
-
-.sidebar-link {
-  color: black;
-  transition-duration: 0.3s;
-}
-
-.sidebar-link {
-  color: #E96F1E;
-  transition-duration: 0.3s;
 }

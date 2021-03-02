@@ -4,9 +4,9 @@ include "../header/dashboard-header-sidebar.php";
 
 <link rel="stylesheet" href="patienten.css" />
     <div class="head">
-        <h1 class="title">Patienten</h1>
+        <h1 class="title">Patiënten</h1>
         <div class="crumb">   <div class="crumbs crumbhome"><i class="fas fa-home"></i> ></div>
-            <div class="crumbs crumbsfirst">Patienten</div>
+            <div class="crumbs crumbsfirst">Patiënten</div>
         </div>
     </div>
 
@@ -56,7 +56,7 @@ include "../header/dashboard-header-sidebar.php";
         <i class="fas fa-2x fa-arrow-alt-circle-right patient-card-right"></i>
   </div>
 
-  <div class="card"><i class="fas plus-knop fa-4x fa-plus-circle"></i></div>
+  <div class="card"><a href="patient-toevoegen.php" class="fas plus-knop fa-4x fa-plus-circle"></a></div>
 </div>
 
 <?php

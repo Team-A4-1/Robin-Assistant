@@ -10,9 +10,9 @@ include "../header/dashboard-header-sidebar.php";
 ?>
 	<link rel="stylesheet" href="task.css" type="text/css">
 	<div class="head">
-	<h1 class="title">Home</h1>
+	<h1 class="title">Taken</h1>
 	<div class="crumb">   <div class="crumbs crumbhome"><i class="fas fa-home"></i> ></div>
-		<div class="crumbs crumbsfirst">Home</div>
+		<div class="crumbs crumbsfirst">Taken</div>
 	</div>
 	</div>
 <div class="main">

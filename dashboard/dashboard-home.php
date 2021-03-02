@@ -12,8 +12,8 @@ include "../header/dashboard-header-sidebar.php";
 
 <div class="wrapper">
 	<div class="grid-container">
-    <div class="home-box-1">Opkomende Taken</div>
-		<div class="home-box-2">Kalender</div>
+    <div class="home-box-1" style="padding:10px;">Opkomende Taken</div>
+		<div class="home-box-2" style="padding:10px;">Kalender</div>
 		<div class="home-box-3">
 
             <div class="patient-cards">

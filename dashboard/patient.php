@@ -19,11 +19,11 @@ include "../header/dashboard-header-sidebar.php";
             <p class="patient-card-left">Man</p>
         </div>
 
-        <div class="patient-card-taken">
+        <div class="patient-card-taken" style="padding:10px;">
             Taken
         </div>
 
-        <div class="patient-card-kalender">
+        <div class="patient-card-kalender" style="padding:10px;">
             Kalender
         </div>
     </div>

@@ -35,11 +35,21 @@
 .patient-card-right:hover {
   color: #E96F1E;
   transition-duration: 0.3s;
+  transform: scale(1.1);
 }
 
 .plus-knop {
   padding-top: 50%;
   padding-bottom: 50%;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  color: black;
+}
+
+.plus-knop:hover {
+  color: #E96F1E;
+  transition-duration: 0.3s;
+  transform: scale(1.1);
 }
 
 .patient-card {

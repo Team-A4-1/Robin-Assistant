@@ -1,0 +1,80 @@
+.crumb {
+    text-align: left;
+  }
+  .crumbs {
+    display: inline-block;
+  }
+  .title {
+    font-size: 120%;
+  }
+  .head {
+    margin-left: 1%;
+  }
+  
+input {
+    padding: 6px 10px;
+    height: 25px;
+    border: 2px solid #BABABA;
+    border-radius: 5px;
+}
+
+select {
+    width: 100px;
+    height: 25px;
+    border: 2px solid #BABABA;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 6px 10px;
+    border: 2px solid #BABABA;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid #E96F1E;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    transition-duration: 0.3s;
+  }
+
+.button:hover {
+    background-color: #E96F1E;
+    color: white;
+    transition-duration: 0.3s;
+}
+  
+  .patient-card {
+    height: 700px;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .patient-cards {
+    margin: 0 auto;
+    display: grid;
+    gap: 25px 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+    border: 1px solid black;
+    padding: 50px 50px 50px 50px;
+    margin: 15px 15px;
+    border-radius: 5px;
+    align-items: center;
+    justify-items: center;
+  }
+  
