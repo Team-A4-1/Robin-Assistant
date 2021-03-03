@@ -26,7 +26,7 @@ class taskHandling {
 
 
 		$tasks = json_decode($task);
-		for($i=0;$i<31;$i++){
+		for($i=1;$i<31;$i++){
 			$Maintask=$tasks->task->name;
 			$sub=$tasks->task->subtasks;
 			if($date) {

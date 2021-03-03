@@ -3,14 +3,32 @@
     text-align: center;
 }
 .calender{
+    height: 75vh;
+    padding:1%;
     display: grid ;
+    grid-gap: 5%;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: max-content;
+    /*grid-template-rows:auto auto auto  ;*/
     margin:1%;
     border: solid black 1px;
+    border-radius:5px;
+    overflow-y: scroll;
 
 }
+
+.calender::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.calender {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
 .date{
+    border-radius:5px;
+
     border:solid black 1px ;
     width: auto;
     text-align: center;
@@ -26,5 +44,6 @@
 }
 .subtask > div {
     display: inline-block;
+    font-size: 50%;
 }
 
