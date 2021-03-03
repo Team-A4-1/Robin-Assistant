@@ -3,7 +3,7 @@
     border: solid black 1px;
     display: grid;
     grid-template-columns:25% auto;
-
+    border-radius: 5px;
 }
 .user{
 
@@ -22,9 +22,15 @@
     border: black solid 1px;
     height: 70vh;
     margin: 4vh;
-
+    border-radius: 5px;
 }
 
 hr{
     color: #C1C1C160;
 }
+
+.user-image {
+    width: 80px;
+    padding: 10px;
+    border-radius: 20%;
+  }

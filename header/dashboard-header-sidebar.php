@@ -23,15 +23,15 @@
 
     <!-- SideBar -->
     <div class="sidenav">
-            <img class="dashboard-icon" src="../assets/dashboard-black-18dp.svg" alt="dashboard-icon" width="60px" height="60px">
-        <a href="../dashboard/dashboard-home.php">Dashboard</a>
+            <a href="../dashboard/dashboard-home.php"><img class="dashboard-icon" src="../assets/dashboard-black-18dp.svg" alt="dashboard-icon" width="60px" height="60px">Dashboard</a>
+        <!-- <a href="../dashboard/dashboard-home.php">Dashboard</a> -->
 
         <hr>
-            <img class="patienten-logo" src="../assets/account_box-black-18dp.svg" alt="patienten-logo" width="60px" height="60px">
-        <a href="#patienten">Patienten</a>
+            <a href="../dashboard/patienten.php"><img class="patienten-logo" src="../assets/account_box-black-18dp.svg" alt="patienten-logo" width="60px" height="60px">Patiënten</a>
+        <!-- <a href="../dashboard/patienten.php">Patiënten</a> -->
         <hr>
-            <img class="kalender-logo" src="../assets/date_range-black-18dp.svg" alt="kalender-logo" width="60px" height="60px">
-        <a href="../dashboard/kalender.php">Kalender</a>
+            <a href="../dashboard/kalender.php"><img class="kalender-logo" src="../assets/date_range-black-18dp.svg" alt="kalender-logo" width="60px" height="60px"><br>Kalender</a>
+        <!-- <a href="../dashboard/kalender.php">Kalender</a> -->
         <hr>
       </div>
 

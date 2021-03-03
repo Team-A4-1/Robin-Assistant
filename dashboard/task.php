@@ -10,18 +10,18 @@ include "../header/dashboard-header-sidebar.php";
 ?>
 	<link rel="stylesheet" href="task.css" type="text/css">
 	<div class="head">
-	<h1 class="title">Home</h1>
+	<h1 class="title">Taken</h1>
 	<div class="crumb">   <div class="crumbs crumbhome"><i class="fas fa-home"></i> ></div>
-		<div class="crumbs crumbsfirst">Home</div>
+		<div class="crumbs crumbsfirst">Taken</div>
 	</div>
 	</div>
 <div class="main">
 	<div class="user">
-		<img src="" alt="profile pic" class="profile">
+		<img src="../assets/mike-andrei-433.jpeg" alt="profile pic" class="profile user-image">
 		<hr>
-		<div class="name">Naam</div>
-		<div class="age">Leeftijd</div>
-		<div class="gender">Geslacht</div>
+		<div class="name">Test gebruiker 1</div>
+		<div class="age">19</div>
+		<div class="gender">Man</div>
 
 	</div>
 
