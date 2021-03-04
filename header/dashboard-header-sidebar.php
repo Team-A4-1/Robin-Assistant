@@ -14,8 +14,7 @@
     <!-- Header -->
     <div class="navbar">
         <img class="header-logo" src="../assets/robin-bird-nobg.png" alt="Logo">
-        <a class="fas fa-lg fa-icon fa-chevron-down right"></a>
-        <a href="#" class="right">Username</a>
+        <a href="../dashboard/begeleider-account.php" class="right">Username</a>
         <a class="fas fa-lg fa-icon fa-user-circle right"></a>
         <a class="fas fa-lg fa-icon-2 fa-bell right"></a>
         <a class="fas fa-lg fa-icon fa-search right"></a>
