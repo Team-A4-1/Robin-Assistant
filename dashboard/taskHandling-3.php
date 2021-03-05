@@ -15,7 +15,7 @@ class taskHandling {
 
 	function printTasks($date = false,$subtasks=false,$time=false,$task ='{
 	"task": {
-	"name": "task1",
+	"name": "task-1",
 	"duration":120,
 	"subtasks": [
 	        {"time": "9:00","name": "subtask1","duration":60},
@@ -26,7 +26,7 @@ class taskHandling {
 
 
 		$tasks = json_decode($task);
-		for($i=1;$i<32;$i++){
+		for($i=1;$i<6;$i++){
 			$Maintask=$tasks->task->name;
 			$sub=$tasks->task->subtasks;
 			if($date) {
@@ -51,7 +51,4 @@ class taskHandling {
 
 		}
 	}
-
-
-
 }
