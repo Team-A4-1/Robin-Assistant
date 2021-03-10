@@ -26,11 +26,17 @@ include "../header/dashboard-header-sidebar.php";
 	</div>
 
 	<div class="tasks">
+	<div class="patient-card-taken" style="padding:10px;">
+            Taken
+            <div class="calender">
 		<?php
-		require_once(__DIR__.'/taskHandling.php');
-		$tasks = new taskHandling();
-		$tasks->printTasks();
+		require_once(__DIR__.'/taskHandling-2.php');
+        $tasks = new taskHandling();
+        $tasks->printTasks(true,true,true);
+
 		?>
+    </div>
+        </div>
 	</div>
 
 </div>
