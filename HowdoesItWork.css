@@ -61,3 +61,14 @@
     text-align: left;
     font-size: 19px;
 }
+
+@media(max-width: 425px) { 
+    .HowdoesItWork__left {
+        padding: 9px 10px;
+        flex: 1 1 50%;
+    }
+    .HowdoesItWork__right {
+        padding: 9px 10px;
+        flex: 1 1 50%;
+    }
+ }
