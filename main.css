@@ -178,7 +178,7 @@ h2 {
     url('images/StockSnap_KJZZ3VQWN9.jpg');
     background-position: center;
     background-size: contain;
-    height: 500px;
+    height: 650px;
     color: #ffff;
     font-size: 20px;
     padding: 40px 0;
@@ -250,7 +250,7 @@ justify-content: space-evenly;
 .benefits__content{
     display: flex;
     flex-direction: column;
-    padding: 0 61px;
+   /* padding: 0 61px;*/
     text-align: center;
 }
 .benefits__title{
